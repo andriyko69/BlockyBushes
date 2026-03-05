@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "blockybushes:block/sweet_berry_bush_stem",
+    "particle": "blockybushes:block/sweet_berry_bush_stem"
+  }
+}

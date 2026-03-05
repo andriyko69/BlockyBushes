@@ -1,0 +1,41 @@
+{
+  "textures": {
+    "bush": "blockybushes:block/sweet_berry_bush_full",
+    "stem": "blockybushes:block/sweet_berry_bush_stem",
+    "particle": "blockybushes:block/sweet_berry_bush_full"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to":   [16, 16, 16],
+      "faces": {
+        "north": {"texture": "#bush"},
+        "south": {"texture": "#bush"},
+        "east":  {"texture": "#bush"},
+        "west":  {"texture": "#bush"},
+        "up":    {"texture": "#bush"},
+        "down":  {"texture": "#bush"}
+      }
+    },
+
+    {
+      "from": [1, 0, 7.9],
+      "to":   [15, 12, 8.1],
+      "rotation": { "origin": [8, 6, 8], "axis": "y", "angle": 45 },
+      "faces": {
+        "north": {"texture": "#stem"},
+        "south": {"texture": "#stem"}
+      }
+    },
+
+    {
+      "from": [1, 0, 7.9],
+      "to":   [15, 12, 8.1],
+      "rotation": { "origin": [8, 6, 8], "axis": "y", "angle": -45 },
+      "faces": {
+        "north": {"texture": "#stem"},
+        "south": {"texture": "#stem"}
+      }
+    }
+  ]
+}
